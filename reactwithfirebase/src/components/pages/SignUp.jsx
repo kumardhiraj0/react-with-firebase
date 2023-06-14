@@ -10,7 +10,8 @@ const SignUp = () => {
     createUserWithEmailAndPassword(auth, email, pass).then((val)=> alert("success"));
   };
   return (
-    <div className="gign-up">
+    <div className="sign-up">
+        <h2>SignUp page</h2>
       <label htmlFor="my-email">Email:</label>
       <input
         name="email"
